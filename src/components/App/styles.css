@@ -1,0 +1,14 @@
+.app {
+  width: auto;
+  margin: auto;
+  text-align: center;
+}
+
+.app img {
+  max-width: 150px;
+}
+
+body{
+  background-color: #44197d;
+
+}

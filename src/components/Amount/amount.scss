@@ -1,0 +1,21 @@
+.amount{
+
+    &__container{
+        margin-top:1em;
+
+    }
+
+    &__currency{
+        color: white;
+        font-size:1.2em;
+        text-align:left;
+        margin-left : 10em;
+    }
+
+    &__name{
+        color: white;
+        font-size:1.2em;
+        text-align: right;
+        margin-right: 10em;
+    }
+}
