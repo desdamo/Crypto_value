@@ -3,4 +3,4 @@
 Just a simple Crypto Viewer App in React
 
 
-![Image of the Website](https://octodex.github.com/images/yaktocat.png)
+![Image of the Website](https://github.com/desdamo/Crypto_value/blob/main/crypto_view.png?raw=true)
