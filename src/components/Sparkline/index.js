@@ -6,11 +6,11 @@ import { Sparklines, SparklinesLine } from 'react-sparklines';
 
 import './sparkline.scss';
 
-const Sparkline = () => (
+const Sparkline = ({spark}) => (
     <div className="sparkline">
   <Container className="sparkline__container" fluid textAlign="center">
-    <Sparklines data={[5, 10, 5, 20, 4, 25, 50, 30, 2,20]} limit={10} width={300} height={50}>
-      <SparklinesLine className="sparkline__line" color="orange" />
+    <Sparklines className="slide-top" data={spark} limit={10} width={300} height={50}>
+      <SparklinesLine className="sparkline__line slide-top" color="orange" />
     </Sparklines>
   </Container>
   </div>
